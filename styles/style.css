@@ -4,8 +4,9 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  height: 293px;
   font-size: 18px;
+  padding:90px 0px 95px;
+
 }
 
 .header__menu {
@@ -53,13 +54,12 @@
 
 .cover {
   position: relative;
-  height: 757px;
   background-image: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
   color: #ffffff;
   text-transform: uppercase;
-  z-index: -1;
+  z-index: 0;
   margin-bottom: 180px;
 }
 
@@ -75,14 +75,11 @@
 }
 
 .cover__title {
-  z-index: 1;
   letter-spacing: 30px;
   font-size: 100px;
   font-weight: 700;
   line-height: 115px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 165px;
+  padding:165px 50px 0px;
 }
 
 .aligned-text {
@@ -104,22 +101,18 @@
 }
 
 .cover__description {
-  position: absolute;
   display: flex;
   bottom: 0px;
   justify-content: space-between;
   align-items: center;
-  z-index: 1;
   width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-bottom: 50px;
+  padding:106px 50px 50px;
 }
 
 .cover__description-text {
   display: inline;
   font-size: 22px;
-  word-spacing: 17px;
+  word-spacing: 18.5px;
 }
 
 .bet-button {
@@ -130,6 +123,7 @@
   width: 256px;
   color: #ffffff;
   border: 1px solid #ffffff;
+  cursor: pointer;
 }
 
 .lots {
@@ -137,7 +131,7 @@
   margin-right: 24px;
 }
 
-.h2_font {
+.section-title {
   font-weight: 700;
   font-size: 40px;
   line-height: 46.96px;
@@ -176,25 +170,20 @@
   z-index: -1;
   color: #ffffff;
   padding: 48px 40px;
+  background-position: center;
+  background-size: cover;
 }
 
 .card_type_film {
   background-image: url("../images/card-lot-01.jpg");
-
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_book {
   background-image: url("../images/card-lot-02.jpg");
-  background-position: center;
-  background-size: cover;
 }
 
 .card_type_picture {
   background-image: url("../images/card-lot-03.jpg");
-  background-position: center;
-  background-size: cover;
 }
 
 .card__title {
@@ -246,7 +235,7 @@
   padding-top: 100px;
 }
 
-.about_text_first {
+.about_text_paragraph {
   display: block;
   padding-bottom: 24px;
 }
